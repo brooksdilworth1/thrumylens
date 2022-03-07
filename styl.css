@@ -1,0 +1,176 @@
+@import url("brooks.css");
+body {
+	color: #3B3A3A;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	background-image: url(beach.jpeg);
+	background-repeat: repeat-y;
+	background-size: contain;
+	height: 750px;
+	}
+
+#container {
+	width: 768px;
+	height: auto;
+	background-color: white;
+	margin: auto;
+}
+h1 {
+	color: #6BE6FE;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 24pt;
+	}
+p{
+	font-weight: 400;
+	font-style: italic;
+	color: #FF01DB;
+	background-color: #FDFDFD;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+	border: thick solid #440FBC;
+	border-radius: 15px 15px 0px;
+}
+img {
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+.floatLeft{
+	float: left;	
+}
+article {
+    margin-bottom: 30px;
+}
+h3 {
+    font-size: 12pt;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+/*Float the Aside so it displays next to Main.*/
+aside {
+	width: 150px;
+	height: 750px;
+	float: left;
+	background-color: #934CD9;
+	border-radius: 15px;
+	border: thick solid #13DC20;
+	color: #FCFCFC;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-style: italic;
+	font-size: large;
+}
+header {
+	width: 768px;
+	height: 250px;
+	background-image: url(tropical.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: thick solid #FFFFFF;
+}
+main {
+    width: 598px;
+    height: 520px;
+    float: left;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    color: #53BAEF;
+    border: thick solid #FAEA18;
+    background-color: #FCFCFC;
+}
+
+/*Clear the float so the footer shows up in the righth place again.*/
+footer {
+    width: 768px;
+    height: 150px;
+    clear: left;
+    background-color: #EDC800;
+    float: left;
+}
+#container nav li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    width: 80px;
+    font-family: neonoir, sans-serif;
+    font-size: 18pt;
+    margin-right: 40px;
+}
+#container nav ul {
+    margin: auto;
+    width: 500px;
+    display: block;
+    float: left;
+}
+nav a:link {
+    color: #6BE7FE;
+	text-decoration: none;
+}
+nav a:visited {
+    color: #392750;
+	text-decoration: none;
+}
+nav a:hover {
+    color: #FFFFFF;
+	background-color: #6BE7FE;
+	padding: 10px;
+	border-radius: 20px;
+	text-decoration: none;
+}
+nav a:active {
+    color: #141414;
+	text-decoration: none;
+}
+.submit_btn {
+    width: 170px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #6BE6FE;
+    color: #FFFFFF;
+    font-size: 16px;
+    -webkit-box-shadow: 6px 6px 35px 1px #000000;
+    box-shadow: 6px 6px 35px 1px #000000;
+}
+
+.submit_btn:hover {
+	 -webkit-box-shadow: 6px 6px 35px 1px #000000;
+    box-shadow: 6px 6px 35px 1px #000000;
+}
+
+td{
+    background-color: rgba(196,99,217,1.00);
+    width: 600px;
+    padding: 20px;
+    border: thick solid #8C42FF;
+    border-radius: 20px;
+    list-style-position: outside;
+}
+li {
+}
+nav ul {
+    border: thick solid #D020C0;
+    background-color: #F9F9F9;
+    color: #AE33F0;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: x-large;
+    line-height: normal;
+    width: 768px;
+    height: 25px;
+}
+table {
+    border: thick solid #CA2BD2;
+}
